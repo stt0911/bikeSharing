@@ -1,0 +1,29 @@
+/* pages/scanResult/index.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header,.tips{
+  flex: 1;
+  width: 100%;
+  text-align: center;
+  padding: 60rpx 0;
+}
+.cont{  
+  flex: 8;
+  font-size: 200rpx;
+  font-weight: bold;
+}
+.tips{
+  font-size: 30rpx;
+}
+.tips .tip-action{
+  margin-top: 20rpx;
+}
+.tips .tip-href{
+  color: #b9dd08;
+}

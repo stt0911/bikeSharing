@@ -1,0 +1,18 @@
+<!--pages/avatar/index.wxml-->
+<view class="container">
+  <view class="user-info">
+    <view class="user-img" wx:if="{{user.avatarUrl != ''}}">
+      <image src="{{user.avatarUrl}}"></image>
+    </view>
+    <view class="user-name">
+      <text>{{user.nickName}}</text>
+    </view>
+  </view>
+  <view class="mywallet" wx:if="{{user.avatarUrl != ''}}" bindtap="toWallet">
+    <text>我的钱包</text>
+    <text class="wallet">></text>
+  </view>
+  <view class="footer">
+    <button class="btn {{btnclass}}" bindgetuserinfo="bindGetUserInfo" wx:if="{{canIUse}}" open-type="getUserInfo">{{loginText}}</button>
+  </view>
+</view>

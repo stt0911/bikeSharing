@@ -1,0 +1,29 @@
+<!--pages/wallet/index.wxml-->
+<view class="container">
+  <view class="balance">
+    <view class="balance-title">我的余额（元）</view>
+    <view class="balance-cont">
+      <text>{{money}}</text>
+    </view>
+    <view class="balance-desc">
+      <text class="desc">余额说明</text>
+    </view>
+  </view>
+  <view class="recharge">
+    <button class="chargebtn" bindtap="chargeHandle">充值</button>
+  </view>
+  <view class="my-wealth">
+    <view class="my-ticket" bindtap="">
+      <text>我的用车券</text>
+      <text class="toicon">{{ticketNum}}张></text>
+    </view>
+    <view class="my-deposit" bindtap="">
+      <text>我的押金</text>
+      <text class="toicon"><text style="color: #b9dd08">99元，押金退款</text>></text>
+    </view>
+  </view>
+  <view class="about">
+      <text>关于共享单车</text>
+      <text class="toicon">></text>
+  </view>
+</view>

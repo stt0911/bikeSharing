@@ -1,0 +1,43 @@
+/* pages/billing/index.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.number{
+  flex: 2;
+  width: 100%;
+  text-align: center;
+  padding: 60rpx 0;
+}
+.time{
+  flex: 7;
+  width: 100%;
+  text-align: center;
+}
+.time .time-cont{
+  margin-top: 20rpx;
+  font-size: 100rpx;
+  text-align: center;
+}
+.time .time-cont text{
+  display: inline-block;
+  width: 120rpx;
+  padding: 0 10rpx;
+}
+.endride{
+  flex: 1;
+  width: 100%;
+}
+.endride .endbtn,
+.endride .backbtn{
+  width: 90%;
+  margin-bottom: 20rpx;
+}
+.endride .endbtn{
+  background-color: red;
+  color: #fff;
+}

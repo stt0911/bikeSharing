@@ -1,0 +1,50 @@
+/* pages/wallet/index.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+.balance{
+  padding: 40rpx;
+  background-color: #fff;
+  text-align: center;
+}
+.balance .balance-title{
+  font-size: 24rpx;
+  padding: 20rpx 0;
+}
+.balance .balance-cont{
+  padding: 50rpx 0;
+  font-size: 100rpx;
+  font-weight: bold; 
+}
+.balance .balance-desc .desc{
+  font-size: 20rpx; 
+  border: 1px solid;
+  padding: 5rpx 20rpx;
+  border-radius: 30rpx;
+}
+.recharge{
+  width: 100%;
+  margin: 30rpx auto;
+}
+.recharge .chargebtn{
+  width: 90%;
+  background-color: #b9dd08;
+}
+.my-wealth{  
+  width: 100%;
+}
+.my-ticket, .my-deposit, .about{
+  position: relative;
+  padding: 30rpx;
+  font-size: 28rpx;
+  background-color: #fff;
+}
+.toicon{
+  position: absolute;
+  right: 30rpx;
+}
+.about{
+  margin-top: 50rpx;
+}
